@@ -19,7 +19,7 @@
 | 11 | Hajji Adan | PLEMIS919P00949 |
 | 12 | Ham hamaa | ✖️ | 
 | 13 | Horgoble | ✖️ |
-| 14 | Maka Al-Mukarrama Primay School | ✖️  |
+| 14 | Maka Al-Mukarrama Primay School | ✖️ |
 | 15 | New qardo | PLEMIS519P01028 |
 | 16 | Sallax | ✖️ |
 | 17 | Sayidka | PLEMIS619P00987 |
