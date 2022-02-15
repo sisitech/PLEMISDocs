@@ -30,6 +30,27 @@
 
 ### World Vision Schools
 
+| # | School Name | EMIS Code |
+| :------ |:------ |:------ |
+| 1 | aftugweyne school | PLEMIS719P01030 |
+| 2 | Baragahaqol | PLEMIS319P00950  | 
+| 3 | Boodacad| PLEMIS119P00998 |
+| 4 | cambarre | PLEMIS5P00993 | 
+| 5 | Ceelgardi | PLEMIS619P01112 |
+| 6 | Dhahar IDP | PLEMIS4P00883 |
+| 7 | Gacal guule | PLEMIS4P00975 |
+| 8 | Gaxandhaale | PLEMIS619P01113 |
+| 9 | KABAAL | PLEMIS719P01034 |
+| 10 | Maraye | PLEMIS719P01036 |
+| 11 | Mindhiciraan | PLEMIS619P01116 |
+| 12 | Dudumale | PLEMIS719P00920 | 
+| 13 | Suubaan  | PLEMIS7P00897 |
+| 14 | Waylolaq | PLEMIS7P00913 |
+| 15 | Yibayil | PLEMIS719P01009 |
+| 16 | Ceelmadoobe | PLEMIS719P01026 |
+| 17 | TAAGEER PRIMARY SCHOOL | PLEMIS3P00940 |
+| 18 | Wargaduud | PLEMIS719P00980 |
+| 19 | Waridaad | PLEMIS4P00999 |
 
 **Prepared on 9th February 2022**
 <br>
