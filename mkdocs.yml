@@ -14,7 +14,7 @@ theme:
         icon: material/toggle-switch
         name: Switch to light mode
   font:
-    text: Nunito Sans
+    text: Prompt
   features:
     - navigation.top
     - navigation.instant
