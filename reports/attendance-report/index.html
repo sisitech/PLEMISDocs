@@ -1,0 +1,1039 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="icon" href="../../images/sisitech-logo.png">
+      <meta name="generator" content="mkdocs-1.3.1, mkdocs-material-8.3.9">
+    
+    
+      
+        <title>Attendance Report - PL Emis Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.1d29e8d0.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+      
+      
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Prompt:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Prompt";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../css/extra.css">
+    
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/knsv/mermaid@6.0.0/dist/mermaid.css">
+    
+    <script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent="">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#attendance-report" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="PL Emis Docs" class="md-header__button md-logo" aria-label="PL Emis Docs" data-md-component="logo">
+      
+  <img src="../../images/sisitech-logo.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            PL Emis Docs
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Attendance Report
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="" data-md-color-accent=""  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3Z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="PL Emis Docs" class="md-nav__button md-logo" aria-label="PL Emis Docs" data-md-component="logo">
+      
+  <img src="../../images/sisitech-logo.png" alt="logo">
+
+    </a>
+    PL Emis Docs
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Faqs/" class="md-nav__link">
+        Faqs
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../User%20Manual/" class="md-nav__link">
+        User Manual
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Reports
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Reports" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Reports
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Attendance Report
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Attendance Report
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#key" class="md-nav__link">
+    Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#save-the-children-schools" class="md-nav__link">
+    Save The Children Schools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#world-vision-schools" class="md-nav__link">
+    World Vision Schools
+  </a>
+  
+    <nav class="md-nav" aria-label="World Vision Schools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prepared-on-17th-may-2022" class="md-nav__link">
+    Prepared on 17th May 2022
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#by-sisitech-limited" class="md-nav__link">
+    by Sisitech Limited
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../data-importation/" class="md-nav__link">
+        Technical Testing Report
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#key" class="md-nav__link">
+    Key
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#save-the-children-schools" class="md-nav__link">
+    Save The Children Schools
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#world-vision-schools" class="md-nav__link">
+    World Vision Schools
+  </a>
+  
+    <nav class="md-nav" aria-label="World Vision Schools">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#prepared-on-17th-may-2022" class="md-nav__link">
+    Prepared on 17th May 2022
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#by-sisitech-limited" class="md-nav__link">
+    by Sisitech Limited
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+
+
+<h1 id="attendance-report">Attendance Report</h1>
+<h3 id="key">Key</h3>
+<table>
+<thead>
+<tr>
+<th align="left">Title</th>
+<th align="left">Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">School Name</td>
+<td align="left">Name of the school</td>
+</tr>
+<tr>
+<td align="left">EMIS Code</td>
+<td align="left">The EMIS code assigned to a particular school</td>
+</tr>
+<tr>
+<td align="left">Total Students</td>
+<td align="left">Total number of students enroled in the school</td>
+</tr>
+<tr>
+<td align="left">Present (%)</td>
+<td align="left">The number of present student attendance marked to date</td>
+</tr>
+<tr>
+<td align="left">Number of Days</td>
+<td align="left">Total number of collective days attendance has been marked in a specific school</td>
+</tr>
+<tr>
+<td align="left">First Day</td>
+<td align="left">First day attendance was marked in a specific school</td>
+</tr>
+<tr>
+<td align="left">Last Day</td>
+<td align="left">Latest date attendance was marked in a specific school</td>
+</tr>
+</tbody>
+</table>
+<h3 id="save-the-children-schools">Save The Children Schools</h3>
+<table>
+<thead>
+<tr>
+<th align="left">#</th>
+<th align="left">School Name</th>
+<th align="left">EMIS Code</th>
+<th align="left">Total Students</th>
+<th align="left">Present (%)</th>
+<th align="left">Number of Days</th>
+<th align="center">First Day</th>
+<th align="center">Last Day</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">1</td>
+<td align="left">AGOONTA GALKAIO</td>
+<td align="left">PLEMIS619P01017</td>
+<td align="left">468</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">2</td>
+<td align="left">AL- XANAAN</td>
+<td align="left">PLEMIS519P01029</td>
+<td align="left">337</td>
+<td align="left">9</td>
+<td align="left">1</td>
+<td align="center">2022-02-07</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">3</td>
+<td align="left">awrculus</td>
+<td align="left">PLEMIS719P00938</td>
+<td align="left">185</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">4</td>
+<td align="left">baqbaq</td>
+<td align="left">PLEMIS719P01011</td>
+<td align="left">483</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="center">2022-02-08</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">5</td>
+<td align="left">canoyaskax</td>
+<td align="left">PLEMIS719P00933</td>
+<td align="left">162</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">6</td>
+<td align="left">Dangorayo</td>
+<td align="left">PLEMIS719P01017</td>
+<td align="left">451</td>
+<td align="left">98</td>
+<td align="left">14</td>
+<td align="center">2022-04-22</td>
+<td align="center">2022-05-10</td>
+</tr>
+<tr>
+<td align="left">7</td>
+<td align="left">darwiish</td>
+<td align="left">PLEMIS719P00946</td>
+<td align="left">673</td>
+<td align="left">97</td>
+<td align="left">9</td>
+<td align="center">2022-04-10</td>
+<td align="center">2022-05-10</td>
+</tr>
+<tr>
+<td align="left">8</td>
+<td align="left">Bursalax School</td>
+<td align="left">PLEMIS319P00963</td>
+<td align="left">433</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">9</td>
+<td align="left">garwo-net</td>
+<td align="left">PLEMIS519P01026</td>
+<td align="left">104</td>
+<td align="left">66</td>
+<td align="left">1</td>
+<td align="center">2022-03-30</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">10</td>
+<td align="left">Hajji Adan</td>
+<td align="left">PLEMIS919P00949</td>
+<td align="left">258</td>
+<td align="left">0</td>
+<td align="left">1</td>
+<td align="center">2022-04-02</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">11</td>
+<td align="left">Ham hamaa</td>
+<td align="left">PLEMIS719P00934</td>
+<td align="left">129</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">12</td>
+<td align="left">Horgoble</td>
+<td align="left">PLEMIS519P01017</td>
+<td align="left">99</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">13</td>
+<td align="left">Maka Al-Mukarrama Primay School</td>
+<td align="left">PLEMIS719P00943</td>
+<td align="left">231</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">14</td>
+<td align="left">New qardo</td>
+<td align="left">PLEMIS519P01028</td>
+<td align="left">432</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">15</td>
+<td align="left">Sallax</td>
+<td align="left">PLEMIS619P01089</td>
+<td align="left">405</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">16</td>
+<td align="left">Alhidaya</td>
+<td align="left">PLEMIS619P00987</td>
+<td align="left">584</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">17</td>
+<td align="left">Sinujiif</td>
+<td align="left">PLEMIS719P00971</td>
+<td align="left">294</td>
+<td align="left">100</td>
+<td align="left">1</td>
+<td align="center">2022-04-20</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">18</td>
+<td align="left">Uusgure</td>
+<td align="left">PLEMIS719P01016</td>
+<td align="left">387</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">19</td>
+<td align="left">Yaka</td>
+<td align="left">PLEMIS519P00997</td>
+<td align="left">226</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">20</td>
+<td align="left">Yombays</td>
+<td align="left">PLEMIS719P00930</td>
+<td align="left">289</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+</tbody>
+</table>
+<h3 id="world-vision-schools">World Vision Schools</h3>
+<table>
+<thead>
+<tr>
+<th align="left">#</th>
+<th align="left">School Name</th>
+<th align="left">EMIS Code</th>
+<th align="left">Total Students</th>
+<th align="left">Present (%)</th>
+<th align="left">Number of Days</th>
+<th align="center">First Day</th>
+<th align="center">Last Day</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">1</td>
+<td align="left">aftugweyne school</td>
+<td align="left">PLEMIS719P01030</td>
+<td align="left">195</td>
+<td align="left">74</td>
+<td align="left">3</td>
+<td align="center">2022-02-14</td>
+<td align="center">2022-04-08</td>
+</tr>
+<tr>
+<td align="left">2</td>
+<td align="left">Baragahaqol</td>
+<td align="left">PLEMIS319P00950</td>
+<td align="left">311</td>
+<td align="left">94</td>
+<td align="left">5</td>
+<td align="center">2022-03-31</td>
+<td align="center">2022-04-15</td>
+</tr>
+<tr>
+<td align="left">3</td>
+<td align="left">Boodacad</td>
+<td align="left">PLEMIS119P00998</td>
+<td align="left">73</td>
+<td align="left">97</td>
+<td align="left">16</td>
+<td align="center">2022-04-01</td>
+<td align="center">2022-05-07</td>
+</tr>
+<tr>
+<td align="left">4</td>
+<td align="left">cambarre</td>
+<td align="left">PLEMIS5P00993</td>
+<td align="left">168</td>
+<td align="left">85</td>
+<td align="left">19</td>
+<td align="center">2022-03-28</td>
+<td align="center">2022-04-20</td>
+</tr>
+<tr>
+<td align="left">5</td>
+<td align="left">Ceelgardi</td>
+<td align="left">PLEMIS619P01112</td>
+<td align="left">160</td>
+<td align="left">92</td>
+<td align="left">15</td>
+<td align="center">2022-03-26</td>
+<td align="center">2022-04-17</td>
+</tr>
+<tr>
+<td align="left">6</td>
+<td align="left">Dhahar IDP</td>
+<td align="left">PLEMIS4P00883</td>
+<td align="left">92</td>
+<td align="left">88</td>
+<td align="left">28</td>
+<td align="center">2022-03-31</td>
+<td align="center">2022-05-11</td>
+</tr>
+<tr>
+<td align="left">7</td>
+<td align="left">Gacal guule</td>
+<td align="left">PLEMIS4P00975</td>
+<td align="left">60</td>
+<td align="left">87</td>
+<td align="left">15</td>
+<td align="center">2022-03-31</td>
+<td align="center">2022-04-29</td>
+</tr>
+<tr>
+<td align="left">8</td>
+<td align="left">Gaxandhaale</td>
+<td align="left">PLEMIS619P01113</td>
+<td align="left">62</td>
+<td align="left">91</td>
+<td align="left">1</td>
+<td align="center">2022-03-26</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">9</td>
+<td align="left">KABAAL</td>
+<td align="left">PLEMIS719P01034</td>
+<td align="left">265</td>
+<td align="left">95</td>
+<td align="left">23</td>
+<td align="center">2022-03-30</td>
+<td align="center">2022-05-08</td>
+</tr>
+<tr>
+<td align="left">10</td>
+<td align="left">Maraye</td>
+<td align="left">PLEMIS719P01036</td>
+<td align="left">250</td>
+<td align="left">99</td>
+<td align="left">13</td>
+<td align="center">2022-03-30</td>
+<td align="center">2022-04-25</td>
+</tr>
+<tr>
+<td align="left">11</td>
+<td align="left">Mindhiciraan</td>
+<td align="left">PLEMIS619P01116</td>
+<td align="left">56</td>
+<td align="left">84</td>
+<td align="left">4</td>
+<td align="center">2021-08-08</td>
+<td align="center">2022-04-14</td>
+</tr>
+<tr>
+<td align="left">12</td>
+<td align="left">Dudumale</td>
+<td align="left">PLEMIS719P00920</td>
+<td align="left">97</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">13</td>
+<td align="left">Suubaan</td>
+<td align="left">PLEMIS7P00897</td>
+<td align="left">256</td>
+<td align="left">97</td>
+<td align="left">28</td>
+<td align="center">2022-03-25</td>
+<td align="center">2022-04-27</td>
+</tr>
+<tr>
+<td align="left">14</td>
+<td align="left">Waylolaq</td>
+<td align="left">PLEMIS7P00913</td>
+<td align="left">134</td>
+<td align="left">88</td>
+<td align="left">4</td>
+<td align="center">2022-03-28</td>
+<td align="center">2022-05-11</td>
+</tr>
+<tr>
+<td align="left">15</td>
+<td align="left">Yibayil</td>
+<td align="left">PLEMIS719P01009</td>
+<td align="left">172</td>
+<td align="left">84</td>
+<td align="left">14</td>
+<td align="center">2022-03-31</td>
+<td align="center">2022-04-23</td>
+</tr>
+<tr>
+<td align="left">16</td>
+<td align="left">Ceelmadoobe</td>
+<td align="left">PLEMIS719P01026</td>
+<td align="left">141</td>
+<td align="left">0</td>
+<td align="left">0</td>
+<td align="center">-</td>
+<td align="center">-</td>
+</tr>
+<tr>
+<td align="left">17</td>
+<td align="left">TAAGEER PRIMARY SCHOOL</td>
+<td align="left">PLEMIS3P00940</td>
+<td align="left">262</td>
+<td align="left">95</td>
+<td align="left">15</td>
+<td align="center">2022-04-02</td>
+<td align="center">2022-04-26</td>
+</tr>
+<tr>
+<td align="left">18</td>
+<td align="left">Wargaduud</td>
+<td align="left">PLEMIS719P00980</td>
+<td align="left">249</td>
+<td align="left">96</td>
+<td align="left">4</td>
+<td align="center">2022-03-28</td>
+<td align="center">2022-04-09</td>
+</tr>
+<tr>
+<td align="left">19</td>
+<td align="left">Waridaad</td>
+<td align="left">PLEMIS4P00999</td>
+<td align="left">147</td>
+<td align="left">97</td>
+<td align="left">17</td>
+<td align="center">2022-03-31</td>
+<td align="center">2022-05-08</td>
+</tr>
+<tr>
+<td align="left">20</td>
+<td align="left">Biyocado</td>
+<td align="left">PLEMIS719P01027</td>
+<td align="left">165</td>
+<td align="left">98</td>
+<td align="left">4</td>
+<td align="center">2022-03-30</td>
+<td align="center">2022-04-22</td>
+</tr>
+</tbody>
+</table>
+<h6 id="prepared-on-17th-may-2022"><strong>Prepared on 17th May 2022</strong></h6>
+<h6 id="by-sisitech-limited"><strong>by Sisitech Limited</strong></h6>
+
+              
+            </article>
+            
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" hidden>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Footer" >
+      
+        
+        <a href="../../about/" class="md-footer__link md-footer__link--prev" aria-label="Previous: About" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Previous
+              </span>
+              About
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../data-importation/" class="md-footer__link md-footer__link--next" aria-label="Next: Technical Testing Report" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Next
+              </span>
+              Technical Testing Report
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.top", "navigation.instant"], "search": "../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.6c7ad80a.min.js"></script>
+      
+        <script src="https://unpkg.com/mermaid@8.5.1/dist/mermaid.min.js"></script>
+      
+    
+  </body>
+</html>
