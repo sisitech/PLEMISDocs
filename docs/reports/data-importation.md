@@ -13,8 +13,8 @@
 | 5 | canoyaskax | PLEMIS719P00933 |
 | 6 | Dangorayo | PLEMIS719P01017 |
 | 7 | darwiish | PLEMIS719P00946 |
-| 8 | Diiwaanka Addayda | PLEMIS319P00963 |
-| 9 | AGOONTA GALKAIO | PLEMIS619P01017 |
+| 8 | Bursalax School | PLEMIS319P00963 |
+| 9 | Siinay   |  |
 | 10 | garwo-net | PLEMIS519P01026 |
 | 11 | Hajji Adan | PLEMIS919P00949 |
 | 12 | Ham hamaa | PLEMIS719P00934 | 
@@ -22,7 +22,7 @@
 | 14 | Maka Al-Mukarrama Primay School | PLEMIS719P00943 |
 | 15 | New qardo | PLEMIS519P01028 |
 | 16 | Sallax | PLEMIS619P01089 |
-| 17 | Sayidka | PLEMIS619P00987 |
+| 17 | Alhidaya | PLEMIS619P00987 |
 | 18 | Sinujiif | PLEMIS719P00971 |
 | 19 | Uusgure | PLEMIS719P01016 |
 | 20 | Yaka | PLEMIS519P00997 |

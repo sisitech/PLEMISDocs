@@ -31,7 +31,7 @@
 | 13 | Maka Al-Mukarrama Primay School | PLEMIS719P00943 | 231 | 0 |0|-| - |
 | 14 | New qardo | PLEMIS519P01028 | 432 | 0 |0|-| - |
 | 15 | Sallax | PLEMIS619P01089 | 405 | 0 |0|-| - |
-| 16 | Sayidka | PLEMIS619P00987 | 584 | 0 |0|-| - |
+| 16 | Alhidaya | PLEMIS619P00987 | 584 | 0 |0|-| - |
 | 17 | Sinujiif | PLEMIS719P00971 | 294 | 100 |1|2022-04-20| - |
 | 18 | Uusgure | PLEMIS719P01016 | 387 | 0 |0|-| - |
 | 19 | Yaka | PLEMIS519P00997 | 226 | 0 |0|-| - |
